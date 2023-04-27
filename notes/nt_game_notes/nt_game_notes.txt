@@ -1,0 +1,48 @@
+notes:----------------------------
+
+seed inventory and inventory are different
+	* seed inventory has set slots
+	* inventory has dynamic inventory
+
+crafting seeds will produce different quality seed packets depending on crafting level
+
+need to think of system to implement money. Possible ideas:
+	* buying from daily market
+		- fertilizer
+		- plant seeds
+	* selling to daily market
+		- plants
+	* upgrading farm visuals
+		- plots
+		- gui / hud
+	* purchasing specific weather for plants
+
+plants grow slower at night
+sleeping to go to next day (button appears if night)
+
+todo:-----------------------------
+
+add other plants			- day I - NOT DONE
+seed packet sprites			- day I - NOT DONE
+different planting plots	- day I - NOT DONE
+inventory					- day I - NOT DONE
+seed inventory and dragging	- day I - NOT DONE
+day / night cycle			- day I - NOT DONE
+click to harvest + visual	- day II - NOT DONE
+purchasing plots			- day II - NOT DONE
+crafting seeds				- day II - NOT DONE
+weather + weather plants	- day II - NOT DONE
+purchase weather			- day II - NOT DONE
+fertilizer					- day II - NOT DONE
+daily market				- day II - NOT DONE
+watering can				- day III - NOT DONE
+polish sprites				- day III - NOT DONE
+fx							- day III - NOT DONE
+fruit market + selling		- day III - NOT DONE
+sound						- day III - NOT DONE
+music						- day III - NOT DONE
+
+optional todo:--------------------
+
+game saving					- NOT DONE
+web game					- NOT DONE
