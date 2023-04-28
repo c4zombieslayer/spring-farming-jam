@@ -12,3 +12,16 @@ enum plant {
 	apricot				= 11,
 	orange				= 12,
 }
+
+enum plot {
+	plant				= 0,
+	assisted			= 1,
+	tree				= 2,
+}
+
+enum time_type {
+	day = 1,
+	sunset = 2,
+	night = 3,
+	sunrise = 4,
+}

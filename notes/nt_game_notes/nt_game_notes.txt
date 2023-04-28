@@ -22,12 +22,12 @@ sleeping to go to next day (button appears if night)
 
 todo:-----------------------------
 
-add other plants			- day I - NOT DONE
-seed packet sprites			- day I - NOT DONE
-different planting plots	- day I - NOT DONE
-inventory					- day I - NOT DONE
-seed inventory and dragging	- day I - NOT DONE
-day / night cycle			- day I - NOT DONE
+add other plants			- day I - FINISHED
+seed packet sprites			- day I - FINISHED
+different planting plots	- day I - FINISHED
+inventory					- day I - FINISHED
+seed inventory and dragging	- day I - FINISHED
+day / night cycle			- day I - FINISHED (Polish Req)
 click to harvest + visual	- day II - NOT DONE
 purchasing plots			- day II - NOT DONE
 crafting seeds				- day II - NOT DONE
@@ -35,6 +35,8 @@ weather + weather plants	- day II - NOT DONE
 purchase weather			- day II - NOT DONE
 fertilizer					- day II - NOT DONE
 daily market				- day II - NOT DONE
+leveling up / experience	- day III - NOT DONE
+hand transitions			- day III - NOT DONE
 watering can				- day III - NOT DONE
 polish sprites				- day III - NOT DONE
 fx							- day III - NOT DONE

@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"364bf267-919d-4fed-bdd3-dd048c97eb09","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 4,
   "parent": {
     "name": "Plants",
     "path": "folders/Sprites/Plants.yy",
@@ -66,7 +66,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 32,
-    "yorigin": 52,
+    "yorigin": 32,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
