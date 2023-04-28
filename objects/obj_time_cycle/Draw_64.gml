@@ -13,7 +13,7 @@ if(lightAlpha > 0){
 		draw_set_color(c_black);
 		for(var i = 0, len = instance_number(obj_lightup); i < len; i++){
 			var cur = instance_find(obj_lightup, i);
-			draw_circle(cur.x + irandom_range(-1, 1), cur.y + irandom_range(-1, 1), 128, false);
+			draw_circle(cur.x + round(random_range(-0.6, 0.6)), cur.y + round(random_range(-0.6, 0.6)), 64, false);
 		}
 	surface_reset_target();
 }
@@ -45,3 +45,4 @@ draw_surface_ext(lightSurf, 0, 0, 1, 1, 0, c_white, cycleAlpha);
 if(surface_exists(softLight))
 	surface_free(softLight);
 draw_text(x,y,"time = " + string(global.time) + " : day = " + string(global.day) + " : time type = " + get_day_type(timeType));
+draw_text(x,y + 16 ,"grow spd = " + string(global.growSpd))

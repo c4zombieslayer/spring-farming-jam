@@ -1,4 +1,4 @@
-grow += growSpd;
+grow += global.growSpd;
 if(grow > growTime)
 	grow = growTime;
 

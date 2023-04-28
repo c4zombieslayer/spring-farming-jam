@@ -29,7 +29,7 @@ global.plots = [
 [3] = image index
 */
 global.inventory = [
-	[[0, 0, spr_apricot, 3], [0, 0, spr_empty, 0], [0, 0, spr_empty, 0]],
+	[[0, 0, spr_empty, 0], [0, 0, spr_empty, 0], [0, 0, spr_empty, 0]],
 	[[0, 0, spr_empty, 0], [0, 0, spr_empty, 0], [0, 0, spr_empty, 0]],
 ];
 
@@ -38,19 +38,19 @@ global.inventory = [
 global.seeds = [];
 global.seeds[plant.strawberry] = 1;
 global.seeds[plant.blueberry] = 2;
-global.seeds[plant.blackberry] = 0;
-global.seeds[plant.watermelon] = 0;
-global.seeds[plant.kiwi] = 0;
-global.seeds[plant.grape] = 0;
+global.seeds[plant.blackberry] = 4;
+global.seeds[plant.watermelon] = 4;
+global.seeds[plant.kiwi] = 5;
+global.seeds[plant.grape] = 6;
 global.seeds[plant.apple] = 4;
-global.seeds[plant.plum] = 0;
-global.seeds[plant.mango] = 0;
-global.seeds[plant.cherry] = 0;
-global.seeds[plant.apricot] = 0;
-global.seeds[plant.orange] = 0;
+global.seeds[plant.plum] = 3;
+global.seeds[plant.mango] = 6;
+global.seeds[plant.cherry] = 4;
+global.seeds[plant.apricot] = 4;
+global.seeds[plant.orange] = 5;
 
 global.time = 0;
 global.day = 0;
-
+global.growSpd = 1;
 
 

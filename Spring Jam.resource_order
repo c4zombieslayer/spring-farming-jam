@@ -10,9 +10,9 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"GUI","order":6,"path":"folders/Sprites/GUI.yy",},
     {"name":"Misc","order":7,"path":"folders/Sprites/Misc.yy",},
+    {"name":"Plant Packets","order":8,"path":"folders/Sprites/Plant Packets.yy",},
     {"name":"Plants","order":5,"path":"folders/Sprites/Plants.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
-    {"name":"Plant Packets","order":8,"path":"folders/Sprites/Plant Packets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_grape","order":5,"path":"sprites/spr_grape/spr_grape.yy",},
@@ -21,6 +21,7 @@
     {"name":"spr_strawberry_packet","order":10,"path":"sprites/spr_strawberry_packet/spr_strawberry_packet.yy",},
     {"name":"spr_kiwi_packet","order":6,"path":"sprites/spr_kiwi_packet/spr_kiwi_packet.yy",},
     {"name":"spr_strawberry","order":1,"path":"sprites/spr_strawberry/spr_strawberry.yy",},
+    {"name":"add_item_to_inv","order":4,"path":"scripts/add_item_to_inv/add_item_to_inv.yy",},
     {"name":"spr_orange","order":11,"path":"sprites/spr_orange/spr_orange.yy",},
     {"name":"spr_blackberry_packet","order":2,"path":"sprites/spr_blackberry_packet/spr_blackberry_packet.yy",},
     {"name":"ac_pickup","order":1,"path":"animcurves/ac_pickup/ac_pickup.yy",},

@@ -17,7 +17,7 @@ if(movePacket && !mouse_check_button(mb_left)){
 	movePacket = 0;
 	
 	var colPlot = collision_circle(obj_mouse.x, obj_mouse.y, 5, obj_plant_plot, true, true);
-	if(colPlot && plantable_in_plot(tempPacket, colPlot.plotType)){
+	if(colPlot && plantable_in_plot(tempPacket, colPlot.plotType) && colPlot.myPlant == 0){
 		colPlot.set_my_plant(tempPacket);
 	} else
 		global.seeds[tempPacket]++;

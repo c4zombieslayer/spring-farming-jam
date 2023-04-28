@@ -5,13 +5,16 @@ switch(global.time){
 		break;
 	case sunsetSwitch:
 		timeType = time_type.sunset;
-		setLightAlpha = 0.3;
+		global.growSpd = 0.25;
+		setLightAlpha = 0.5;
 		break;
 	case nightSwitch:
 		timeType = time_type.night;
+		global.growSpd = 0;
 		break;
 	case cycleSwitch:
 		timeType = time_type.sunrise;
+		global.growSpd = 0.75;
 		setLightAlpha = 0;
 		next_day();
 		break;

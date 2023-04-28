@@ -23,10 +23,11 @@ myPlant = 0;
 stage = 0;
 maxStage = 0;
 sprite = spr_test;
-growSpd = 1; //for pause menu
 grow = 0;
 growTime = 0; 
 
-plotType = plot.plant;
+plotType = choose(plot.plant, plot.assisted, plot.tree);
 
 set_my_plant(0);
+
+light = instance_create_layer(x, y, layer, obj_lightup);
