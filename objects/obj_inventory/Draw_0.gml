@@ -13,3 +13,6 @@ for(var i = 0, ii = 0; i < invH; i++){
 	}
 	ii += multiplier;
 }
+
+if(invState == inventory_states.moving)
+	draw_sprite_ext(global.inventory[imx][imy][2], global.inventory[imx][imy][3], obj_mouse.x, obj_mouse.y, 1, 1, 0, c_white, 1);

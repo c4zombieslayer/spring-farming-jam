@@ -1,0 +1,1 @@
+lightLevel = lerp(lightLevel, lightTo, 0.1);

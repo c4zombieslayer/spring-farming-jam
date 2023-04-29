@@ -6,6 +6,13 @@ function set_my_plant(_plant){
 	sprite = get_plant_sprite(myPlant);
 	grow = 0;
 	growTime = get_plant_grow_time(myPlant);
+	if(myPlant != 0 && !instance_exists(light)){
+		light = instance_create_depth(x, y, layer_get_depth(layer), obj_lightup);
+	} else if (myPlant == 0 && instance_exists(light)){
+		instance_destroy(light);
+		light = noone;
+	}
+		
 }
 
 function create_plant_pickup(_plant){
@@ -15,7 +22,6 @@ function create_plant_pickup(_plant){
 		image_index: maxStage - 1,
 		image_speed: 0,
 	};
-	
 	instance_create_layer(x, y, "Pickup", obj_fruit_pickup, pickupStruct);
 }
 
@@ -24,10 +30,13 @@ stage = 0;
 maxStage = 0;
 sprite = spr_test;
 grow = 0;
-growTime = 0; 
+growTime = 0;
+selected = false;
 
-plotType = choose(plot.plant, plot.assisted, plot.tree);
+mstart = false;
+mstartX = 0;
+mstartY = 0;
 
+light = noone;
 set_my_plant(0);
 
-light = instance_create_layer(x, y, layer, obj_lightup);

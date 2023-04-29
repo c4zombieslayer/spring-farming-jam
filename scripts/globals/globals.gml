@@ -53,4 +53,4 @@ global.time = 0;
 global.day = 0;
 global.growSpd = 1;
 
-
+global.coins = 6500;

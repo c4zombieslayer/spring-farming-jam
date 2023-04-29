@@ -7,7 +7,7 @@
 ///
 function mouse_in_bounds(_left_bound, _right_bound, _top_bound, _bottom_bound){
 	if(!(obj_mouse.x > _left_bound)) return false;
-	if(!(obj_mouse.x < _right_bound)) return false;
+	if(!(obj_mouse.x <  _right_bound)) return false;
 	if(!(obj_mouse.y > _top_bound)) return false;
 	if(!(obj_mouse.y < _bottom_bound)) return false;
 	return true;

@@ -14,10 +14,12 @@ function add_item_to_inv(_item, _amount = 1){
 				global.inventory[i][j][1] += _amount;
 				return true;
 			} else if(!itemContained && curItem = 0){
+				var sprStruct = get_item_sprite(_item);
+
 				global.inventory[i][j][0] = _item;
 				global.inventory[i][j][1] = _amount;
-				global.inventory[i][j][2] = get_plant_sprite(_item);
-				global.inventory[i][j][3] = get_plant_max_stage(_item) - 1;
+				global.inventory[i][j][2] = sprStruct.sprite_index;
+				global.inventory[i][j][3] = sprStruct.image_index;
 				return true;
 			}
 		}
@@ -25,13 +27,3 @@ function add_item_to_inv(_item, _amount = 1){
 	return false;
 }
 
-function inventory_contains(_item){
-	for(var i = 0, len = array_length(global.inventory); i < len; i++){
-		for(var j = 0, len2 = array_length(global.inventory[i]); j < len2; j++){
-			var curItem = global.inventory[i][j][0];
-			if(_item == curItem)
-				return true;
-		}
-	}
-	return false;
-}

@@ -10,6 +10,7 @@ function next_day(){
 	global.time = 0;
 }
 
+/*
 function get_day_type(_type){
 	switch(_type){
 		case time_type.day: return "day";
@@ -19,20 +20,19 @@ function get_day_type(_type){
 		default: return "none";
 	}
 }
-
+*/
 
 
 lightSurf = surface_create(room_width, room_height);
 cycleSpd = 0.01;
-daySwitch = 200;
-sunsetSwitch = 600;
-nightSwitch = 800;
-cycleSwitch = 1200;
-
-
+daySwitch = 300;
+sunsetSwitch = 800;
+nightSwitch = 1300;
+cycleSwitch = 2000;
 
 timeSpd = 1;
-timeType = time_type.sunrise;
+timeType = time_type.day;
+global.time = daySwitch;
 
 setLightAlpha = 0;
 lightAlpha = setLightAlpha;

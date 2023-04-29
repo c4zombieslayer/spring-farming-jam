@@ -1,1 +1,1 @@
-draw_self();
+draw_sprite(spr_mouse, sprite_index, screenX, screenY);

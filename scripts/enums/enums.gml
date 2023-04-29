@@ -11,6 +11,10 @@ enum plant {
 	cherry				= 10,
 	apricot				= 11,
 	orange				= 12,
+} enum store_slots {
+	plot_plant			= 13,
+	plot_assisted		= 14,
+	plot_tree			= 15,
 }
 
 enum plot {
@@ -20,8 +24,20 @@ enum plot {
 }
 
 enum time_type {
-	day = 1,
-	sunset = 2,
-	night = 3,
-	sunrise = 4,
+	day					= 1,
+	sunset				= 2,
+	night				= 3,
+	sunrise				= 4,
+}
+
+enum place {
+	none				= 0,
+	plots				= 1,
+	store				= 2,
+	skyStore			= 3,
+}
+
+enum inventory_states {
+	idle				= 0,
+	moving				= 1,
 }
