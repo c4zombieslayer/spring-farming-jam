@@ -37,20 +37,21 @@ global.inventory = [
 //used for obj_seed_inventory
 global.seeds = [];
 global.seeds[plant.strawberry] = 2;
-global.seeds[plant.blueberry] = 10;
-global.seeds[plant.blackberry] = 10;
-global.seeds[plant.watermelon] = 10;
-global.seeds[plant.kiwi] = 10;
-global.seeds[plant.grape] = 10;
-global.seeds[plant.apple] = 10;
-global.seeds[plant.plum] = 10;
-global.seeds[plant.mango] = 10;
-global.seeds[plant.cherry] = 10;
-global.seeds[plant.apricot] = 10;
-global.seeds[plant.orange] = 10;
+global.seeds[plant.blueberry] = 0;
+global.seeds[plant.blackberry] = 0;
+global.seeds[plant.watermelon] = 0;
+global.seeds[plant.kiwi] = 0;
+global.seeds[plant.grape] = 0;
+global.seeds[plant.apple] = 0;
+global.seeds[plant.plum] = 0;
+global.seeds[plant.mango] = 0;
+global.seeds[plant.cherry] = 0;
+global.seeds[plant.apricot] = 0;
+global.seeds[plant.orange] = 0;
 
 global.time = 0;
 global.day = 0;
 global.growSpd = 1;
 
-global.coins = 100000;
+global.coins = 300;
+global.win = false;

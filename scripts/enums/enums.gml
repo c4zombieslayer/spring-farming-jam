@@ -18,6 +18,7 @@ enum plant {
 	day_orb				= 16,
 	night_orb			= 17,
 	fertilizer			= 18,
+	trophy				= 19,
 }
 
 enum plot {

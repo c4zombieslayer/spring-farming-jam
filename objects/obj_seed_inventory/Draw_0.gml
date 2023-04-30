@@ -5,14 +5,15 @@ for(var i = 1; i < 13; i++){
 	var packetAlpha = (global.seeds[i] > 0) ? 1 : 0.25;
 	
 	//draw slot
-	draw_sprite_ext(spr_inventory_slot, 0, xPos, y, 0.5, 0.5, 0, c_white, 1);
+	draw_sprite_ext(spr_seed_slot, 0, xPos, y, 0.5, 0.5, 0, c_white, 1);
 	
 	//draw packet
 	
 	draw_sprite_ext(get_plant_packet_sprite(i), 0, packetXPos, packetYPos, 0.5, 0.5, 0, c_white, packetAlpha);
 	
 	//draw amount
-	draw_text(xPos, y, global.seeds[i]);
+	if(global.seeds[i] > 0)
+		draw_text(xPos, y, global.seeds[i]);
 	
 }
 

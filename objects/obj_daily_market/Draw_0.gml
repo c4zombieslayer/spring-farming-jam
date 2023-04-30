@@ -7,7 +7,7 @@ for(var i = 0, len = array_length(storeSlots), ii = 0; i < len; i++){
 }
 
 if(showName){
-	draw_text(obj_mouse.x, obj_mouse.y + 16, get_plant_name(itemHover) + " Seeds");
-	draw_text(obj_mouse.x, obj_mouse.y + 32, "Pot Type = " + string(get_plant_grow_condition(itemHover)));
-	draw_text(obj_mouse.x, obj_mouse.y + 48, "Sell Value = " + string(get_plant_sell_price(itemHover)));
+	draw_text(obj_mouse.x, obj_mouse.y + 32, get_plant_name(itemHover) + " Seeds");
+	draw_text(obj_mouse.x, obj_mouse.y + 48, "Pot Type = " + string(get_plant_grow_condition(itemHover)));
+	draw_text(obj_mouse.x, obj_mouse.y + 64, "Sell Value = " + string(get_plant_sell_price(itemHover)));
 }

@@ -14,3 +14,7 @@ if(keyboard_check_pressed(vk_up)){
 	obj_sound.play_whoosh();
 	curPlace = place.skyStore;
 }
+if(keyboard_check_pressed(vk_down)){
+	obj_sound.play_whoosh();
+	curPlace = place.plots;
+}

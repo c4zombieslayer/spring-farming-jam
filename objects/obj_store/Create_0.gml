@@ -4,6 +4,7 @@ function store_update_cost(){
 		[store_slots.plot_assisted, 50 * costMulti],
 		[store_slots.plot_tree, 100 * costMulti],
 		[store_slots.fertilizer, 50],
+		[store_slots.trophy, 32000],
 	];
 }
 costMulti = 1;
@@ -17,6 +18,7 @@ storeSlots = [
 	[store_slots.plot_assisted, 50 * costMulti],
 	[store_slots.plot_tree, 100 * costMulti],
 	[store_slots.fertilizer, 50],
+	[store_slots.trophy, 32000],
 ];
 
 slotSize = sprite_get_width(spr_store_slot);

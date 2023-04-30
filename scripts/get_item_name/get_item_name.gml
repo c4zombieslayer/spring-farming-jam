@@ -10,6 +10,7 @@ function get_item_name(_item){
 		case store_slots.day_orb: return "Day Orb";
 		case store_slots.night_orb: return "Night Orb";
 		case store_slots.fertilizer: return "Fertilizer";
+		case store_slots.trophy: return "Trophy Of Congratulations";
 		//add other items here
 		
 		default: return "";

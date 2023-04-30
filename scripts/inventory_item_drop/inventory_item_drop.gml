@@ -73,5 +73,9 @@ function inventory_item_drop(_item){
 			obj_sound.play_item_drop();
 			instance_create_layer(obj_mouse.x, obj_mouse.y, "Pickup", obj_fruit_pickup, pickupStruct);
 		break;
+		case store_slots.trophy:
+			obj_sound.play_item_drop();
+			instance_create_layer(obj_mouse.x, obj_mouse.y, "Instances", obj_trophy);
+		break;
 	}
 }

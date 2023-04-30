@@ -7,5 +7,5 @@ for(var i = 0, len = array_length(storeSlots), ii = 0; i < len; i++){
 }
 
 if(showName){
-	draw_text(obj_mouse.x, obj_mouse.y + 16, get_item_name(itemHover));
+	draw_text(obj_mouse.x, obj_mouse.y + 32, get_item_name(itemHover));
 }

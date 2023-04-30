@@ -97,5 +97,10 @@ function get_item_sprite(_item){
 				sprite_index: spr_fertilizer,
 				image_index: 1,
 			};
+		case store_slots.trophy:
+			return {
+				sprite_index: spr_trophy,
+				image_index: 0,
+			};
 	}
 }

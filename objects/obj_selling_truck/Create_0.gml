@@ -22,6 +22,7 @@ function set_truck_state(_state){
 			x = room_width;
 		break;
 		case truck_states.leave:
+			obj_sound.play_truck_driving();
 			x = stayX;
 		break;
 	}

@@ -1,8 +1,26 @@
 musicHigh = 0.30;
 musicLow = 0.10;
 
-audio_play_sound(snd_wind, 1, true);
-audio_play_sound(snd_music, 1, true, musicHigh);
+function volume_activate(){
+	for( var i = 0, sounds = audio_get_listener_count(); i < sounds; i++){
+	    var cur = audio_get_listener_info(i);
+	    audio_set_master_gain(cur[? "index"], 1);
+	    ds_map_destroy(cur);
+	}
+}
+
+function volume_deactivate(){
+	for( var i = 0, sounds = audio_get_listener_count(); i < sounds; i++){
+	    var cur = audio_get_listener_info(i);
+	    audio_set_master_gain(cur[? "index"], 0);
+	    ds_map_destroy(cur);
+	}
+}
+
+function play_background(){
+	audio_play_sound(snd_music, 1, true, musicHigh);
+	audio_play_sound(snd_wind, 1, true);
+}
 
 function play_click(){
 	audio_play_sound(snd_click, 1, false);
@@ -77,4 +95,12 @@ function play_glass_crash(){
 
 function play_brick_slide(){
 	audio_play_sound(snd_brick_slide, 1, false);
+}
+
+function play_truck_driving(){
+	audio_play_sound(snd_truck_driving, 1, false);
+}
+
+function play_grass_slide(){
+	audio_play_sound(snd_grass_slide, 1, false);
 }
