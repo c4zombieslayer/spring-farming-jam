@@ -15,6 +15,9 @@ enum plant {
 	plot_plant			= 13,
 	plot_assisted		= 14,
 	plot_tree			= 15,
+	day_orb				= 16,
+	night_orb			= 17,
+	fertilizer			= 18,
 }
 
 enum plot {
@@ -40,4 +43,9 @@ enum place {
 enum inventory_states {
 	idle				= 0,
 	moving				= 1,
+}
+
+enum truck_states {
+	stay			= 0,
+	leave			= 1,
 }

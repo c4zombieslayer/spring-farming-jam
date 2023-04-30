@@ -15,6 +15,7 @@ function get_plant_name(_plant){
 		case plant.mango: return "Mango";
 		case plant.cherry: return "Cherry";
 		case plant.apricot: return "Apricot";
+		case plant.orange: return "Orange";
 		//add other plants here
 		
 		default: return "";

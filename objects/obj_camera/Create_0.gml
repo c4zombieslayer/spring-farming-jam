@@ -20,7 +20,7 @@ function goto_place(){
 }
 
 function camera_start_game(){
-	curPlace = place.store;
+	curPlace = place.plots;
 	x = plots.x;
 	y = plots.y;
 }

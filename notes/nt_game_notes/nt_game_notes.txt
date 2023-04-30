@@ -31,22 +31,24 @@ seed inventory and dragging	- day I - FINISHED
 day / night cycle			- day I - FINISHED
 click to harvest + visual	- day II - FINISHED
 purchasing plots			- day II - FINISHED
-placing plots				- day II - NOT DONE
-crafting seeds				- day II - NOT DONE
-weather + weather plants	- day II - NOT DONE
-purchase weather			- day II - NOT DONE
-fertilizer					- day II - NOT DONE
-daily market				- day II - NOT DONE
-leveling up / experience	- day III - NOT DONE
-hand transitions			- day III - NOT DONE
-watering can				- day III - NOT DONE
+placing plots				- day II - FINISHED
+crafting seeds				- day II - REPLACED
+weather + weather plants	- day II - REPLACED
+purchase weather			- day II - FINISHED
+fertilizer					- day II - FINISHED
+daily market				- day II - FINISHED
+selling truck				- day III - FINISHED
+balancing changes			- day III - FINISHED
+hand transitions			- day III - DECLINED
+sound						- day III - FINISHED
+music						- day III - FINISHED
+leveling up / experience	- day III - DECLINED
 polish sprites				- day III - NOT DONE
 fx							- day III - NOT DONE
-fruit market + selling		- day III - NOT DONE
-sound						- day III - NOT DONE
-music						- day III - NOT DONE
+
 
 optional todo:--------------------
 
 game saving					- NOT DONE
 web game					- NOT DONE
+watering can				- NOT DONE

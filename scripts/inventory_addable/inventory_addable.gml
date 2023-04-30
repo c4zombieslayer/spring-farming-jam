@@ -5,11 +5,13 @@
 function inventory_addable(_item){
 	if(_item <= 0)
 		return false;
-	var itemContained = inventory_contains(_item);
+	
+	if(inventory_contains(_item))
+		return true;
 	for(var i = 0, len = array_length(global.inventory); i < len; i++){
 		for(var j = 0, len2 = array_length(global.inventory[i]); j < len2; j++){
 			var curItem = global.inventory[i][j][0];
-			if((itemContained && _item == curItem) || (!itemContained && curItem = 0))
+			if(curItem == 0)
 				return true;
 		}
 	}

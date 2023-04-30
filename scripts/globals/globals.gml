@@ -36,21 +36,21 @@ global.inventory = [
 //at pos enum plant is the amount of seed packets
 //used for obj_seed_inventory
 global.seeds = [];
-global.seeds[plant.strawberry] = 1;
-global.seeds[plant.blueberry] = 2;
-global.seeds[plant.blackberry] = 4;
-global.seeds[plant.watermelon] = 4;
-global.seeds[plant.kiwi] = 5;
-global.seeds[plant.grape] = 6;
-global.seeds[plant.apple] = 4;
-global.seeds[plant.plum] = 3;
-global.seeds[plant.mango] = 6;
-global.seeds[plant.cherry] = 4;
-global.seeds[plant.apricot] = 4;
-global.seeds[plant.orange] = 5;
+global.seeds[plant.strawberry] = 2;
+global.seeds[plant.blueberry] = 10;
+global.seeds[plant.blackberry] = 10;
+global.seeds[plant.watermelon] = 10;
+global.seeds[plant.kiwi] = 10;
+global.seeds[plant.grape] = 10;
+global.seeds[plant.apple] = 10;
+global.seeds[plant.plum] = 10;
+global.seeds[plant.mango] = 10;
+global.seeds[plant.cherry] = 10;
+global.seeds[plant.apricot] = 10;
+global.seeds[plant.orange] = 10;
 
 global.time = 0;
 global.day = 0;
 global.growSpd = 1;
 
-global.coins = 6500;
+global.coins = 100000;

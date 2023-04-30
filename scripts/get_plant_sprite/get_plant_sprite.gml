@@ -15,6 +15,7 @@ function get_plant_sprite(_plant){
 		case plant.mango: return spr_mango;
 		case plant.cherry: return spr_cherry;
 		case plant.apricot: return spr_apricot;
+		case plant.orange: return spr_orange;
 		//add other plants here
 		
 		default: return spr_empty;

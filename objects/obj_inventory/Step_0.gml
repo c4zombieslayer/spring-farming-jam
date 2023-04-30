@@ -20,6 +20,7 @@ numY = slotY + (4 * scale);
 var inBackBounds = mouse_in_bounds(bgX, bgX + (slotSize * bgXScale), bgY, bgY + (slotSize * bgYScale));
 if(invState == inventory_states.moving && !mouse_check_button(mb_left) && !inBackBounds){
 	inventory_item_drop(global.inventory[imx][imy][0]);
+	inventory_remove_item(imx, imy, 1);
 	invState = inventory_states.idle;
 	obj_layerer.movingInventory = false;
 	imx = 0;
@@ -42,6 +43,7 @@ for(var i = 0, ii = 0; i < invH; i++){
 		inBounds && 
 		mouse_check_button(mb_left) && 
 		global.inventory[i][j][0] != 0){
+			obj_sound.play_click_on();
 			invState = inventory_states.moving;
 			obj_layerer.movingInventory = true;
 			imx = i;

@@ -1,1 +1,1 @@
-draw_sprite(spr_mouse, sprite_index, screenX, screenY);
+draw_sprite(spr_mouse, image_index, screenX, screenY);

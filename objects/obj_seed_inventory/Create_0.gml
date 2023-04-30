@@ -3,4 +3,5 @@ edge = slotSize;
 hovered = true;
 
 movePacket = 0;
-plantDesc = "";
+itemHover = 0;
+showDesc = false;

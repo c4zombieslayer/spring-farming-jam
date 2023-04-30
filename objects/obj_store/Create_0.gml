@@ -3,6 +3,7 @@ function store_update_cost(){
 		[store_slots.plot_plant, 25 * costMulti],
 		[store_slots.plot_assisted, 50 * costMulti],
 		[store_slots.plot_tree, 100 * costMulti],
+		[store_slots.fertilizer, 50],
 	];
 }
 costMulti = 1;
@@ -15,10 +16,14 @@ storeSlots = [
 	[store_slots.plot_plant, 25 * costMulti],
 	[store_slots.plot_assisted, 50 * costMulti],
 	[store_slots.plot_tree, 100 * costMulti],
+	[store_slots.fertilizer, 50],
 ];
 
 slotSize = sprite_get_width(spr_store_slot);
 itemOffset = slotSize / 2;
 hovered = true;
+
+itemHover = "";
+showName = false;
 
 textOff = 4;

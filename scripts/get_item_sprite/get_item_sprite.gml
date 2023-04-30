@@ -60,6 +60,11 @@ function get_item_sprite(_item){
 				sprite_index: spr_apricot,
 				image_index: get_plant_max_stage(plant.apricot) - 1,
 			};
+		case plant.orange:
+			return {
+				sprite_index: spr_orange,
+				image_index: get_plant_max_stage(plant.orange) - 1,
+			};
 			
 		// store items
 		case store_slots.plot_plant:
@@ -76,6 +81,21 @@ function get_item_sprite(_item){
 			return {
 				sprite_index: spr_plant_plot,
 				image_index: 2,
+			};
+		case store_slots.day_orb:
+			return {
+				sprite_index: spr_weather_orbs,
+				image_index: 0,
+			};
+		case store_slots.night_orb:
+			return {
+				sprite_index: spr_weather_orbs,
+				image_index: 1,
+			};
+		case store_slots.fertilizer:
+			return {
+				sprite_index: spr_fertilizer,
+				image_index: 1,
 			};
 	}
 }

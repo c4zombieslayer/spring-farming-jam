@@ -8,6 +8,7 @@ function set_my_plant(_plant){
 	growTime = get_plant_grow_time(myPlant);
 	if(myPlant != 0 && !instance_exists(light)){
 		light = instance_create_depth(x, y, layer_get_depth(layer), obj_lightup);
+		obj_sound.play_rustle();
 	} else if (myPlant == 0 && instance_exists(light)){
 		instance_destroy(light);
 		light = noone;
@@ -22,6 +23,7 @@ function create_plant_pickup(_plant){
 		image_index: maxStage - 1,
 		image_speed: 0,
 	};
+	obj_sound.play_crunch();
 	instance_create_layer(x, y, "Pickup", obj_fruit_pickup, pickupStruct);
 }
 
@@ -33,6 +35,8 @@ grow = 0;
 growTime = 0;
 selected = false;
 
+moveable = false;
+mdist = 32;
 mstart = false;
 mstartX = 0;
 mstartY = 0;

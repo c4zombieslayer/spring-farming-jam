@@ -1,25 +1,3 @@
-function inventory_item_drop(_item){
-	switch(_item){
-		case store_slots.plot_plant:
-			var plotStruct = {
-				plotType: plot.plant, 
-			};
-			instance_create_layer(obj_mouse.x, obj_mouse.y, "Instances", obj_plant_plot, plotStruct);
-		break;
-		case store_slots.plot_assisted:
-			var plotStruct = {
-				plotType: plot.assisted, 
-			};
-			instance_create_layer(obj_mouse.x, obj_mouse.y, "Instances", obj_plant_plot, plotStruct);
-		break;
-		case store_slots.plot_tree:
-			var plotStruct = {
-				plotType: plot.tree, 
-			};
-			instance_create_layer(obj_mouse.x, obj_mouse.y, "Instances", obj_plant_plot, plotStruct);
-		break;
-	}
-}
 
 depth = 1;
 

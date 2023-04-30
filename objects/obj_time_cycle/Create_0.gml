@@ -8,6 +8,7 @@ function set_time_color(_rgba){
 function next_day(){
 	global.day++;
 	global.time = 0;
+	obj_daily_market.store_update_day();
 }
 
 /*
@@ -24,11 +25,11 @@ function get_day_type(_type){
 
 
 lightSurf = surface_create(room_width, room_height);
-cycleSpd = 0.01;
-daySwitch = 300;
-sunsetSwitch = 800;
-nightSwitch = 1300;
-cycleSwitch = 2000;
+cycleSpd = 0.02;
+daySwitch =		200;
+sunsetSwitch =	900;
+nightSwitch =	1200;
+cycleSwitch =	2100;
 
 timeSpd = 1;
 timeType = time_type.day;

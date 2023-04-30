@@ -10,12 +10,13 @@ for(var i = 0, len = ds_list_size(layerList); i < len; i++){
 		hovering = cur;
 		foundHover = true;
 	}
-	if(instance_exists(hovering) && 
+	if(hovering != noone && 
 	cur.y > hovering.y && 
 	mouse_in_bounds(cur.bbox_left, cur.bbox_right, cur.bbox_top, cur.bbox_bottom)){
 		hovering = cur;
 		foundHover = true;
-	}
+	} else if(hovering == cur && mouse_in_bounds(cur.bbox_left, cur.bbox_right, cur.bbox_top, cur.bbox_bottom))
+		foundHover = true;
 }
 
 if(!foundHover)
