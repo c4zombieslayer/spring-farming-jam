@@ -25,6 +25,7 @@ function get_day_type(_type){
 
 
 lightSurf = surface_create(room_width, room_height);
+softLight = surface_create(room_width, room_height);
 cycleSpd = 0.02;
 daySwitch =		200;
 sunsetSwitch =	900;

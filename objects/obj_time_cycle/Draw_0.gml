@@ -1,13 +1,15 @@
 if(!surface_exists(lightSurf))
 	lightSurf = surface_create(room_width, room_height);
 
+if(surface_exists(softLight))
+	surface_free(softLight);
+
+softLight = surface_create(room_width, room_height);
 
 var currentCol = make_color_rgb(cycleR, cycleG, cycleB);
 #region draw event --------------
 
-var softLight = 0;
 if(lightAlpha > 0){
-	softLight = surface_create(room_width, room_height);
 	surface_set_target(softLight);
 		draw_set_alpha(1);
 		draw_set_color(c_black);
@@ -42,7 +44,6 @@ draw_set_color(c_white);
 #endregion draw event end -------
 
 draw_surface_ext(lightSurf, 0, 0, 1, 1, 0, c_white, cycleAlpha);
-if(surface_exists(softLight))
-	surface_free(softLight);
+
 //draw_text(x,y,"time = " + string(global.time) + " : day = " + string(global.day) + " : time type = " + get_day_type(timeType));
 //draw_text(x,y + 16 ,"grow spd = " + string(global.growSpd))
