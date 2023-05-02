@@ -9,3 +9,5 @@ if(mouse_check_button(mb_left)){
 screenX = x - obj_camera.x;
 screenY = y - obj_camera.y;
 
+light.x = x;
+light.y = y;
