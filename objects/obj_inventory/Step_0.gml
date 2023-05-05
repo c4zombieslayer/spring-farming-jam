@@ -45,7 +45,7 @@ for(var i = 0, ii = 0; i < invH; i++){
 		global.inventory[i][j][0] != 0){
 			obj_sound.play_click_on();
 			invState = inventory_states.moving;
-			obj_layerer.movingInventory = true;
+			obj_layerer.movingInventory = true;  
 			imx = i;
 			imy = j;
 			break;

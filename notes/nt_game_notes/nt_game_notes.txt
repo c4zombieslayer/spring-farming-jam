@@ -45,10 +45,13 @@ music						- day III - FINISHED
 leveling up / experience	- day III - DECLINED
 polish sprites				- day III - FINISHED
 
-
 optional todo:--------------------
 
 game saving					- NOT DONE
 web game					- NOT DONE
 watering can				- NOT DONE
 fx							- NOT DONE
+
+bugfix todo:----------------------
+
+fertilizer used on all drops
